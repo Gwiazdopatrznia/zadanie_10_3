@@ -1,0 +1,26 @@
+@import 'reset';
+
+* {
+	box-sizing: border-box;
+}
+
+#carousel {
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	ul {
+		width: 2000px;
+		li {
+			width: 400px;
+			height: 300px;
+			float: left;
+			img {
+				width: 400px;
+				height: 300px;
+				object-fit: cover;
+			}
+		}
+	}
+}
